@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Button from "../../components/button";
 import TextInput from "../../components/textInput";
-import styles from "./login.module.css";
+import Container from "../../components/container";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
@@ -11,8 +11,7 @@ const LoginPage = () => {
   const isDisabled = email === "" || password === "";
 
   return (
-    <div className={styles.container}>
-      <h4>Login Page</h4>
+    <Container title="Login Page">
       <TextInput
         label="Email"
         type="email"
@@ -28,7 +27,7 @@ const LoginPage = () => {
       />
       <Button disabled={isDisabled}>Login</Button>{" "}
       <Button variant="secondary">Forgot Password</Button>
-    </div>
+    </Container>
   );
 };
 

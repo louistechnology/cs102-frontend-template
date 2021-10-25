@@ -1,7 +1,7 @@
 import Button from "../../components/button";
 import TextInput from "../../components/textInput";
-import styles from "./profile.module.css";
 import { useEffect, useState } from "react";
+import Container from "../../components/container";
 
 const ProfilePage = () => {
   const [profile, setProfile] = useState({});
@@ -48,8 +48,7 @@ const ProfilePage = () => {
   };
 
   return (
-    <div className={styles.container}>
-      <h4>Profile Page</h4>
+    <Container title="Profile Page">
       <TextInput
         label="Email"
         type="text"
@@ -74,7 +73,7 @@ const ProfilePage = () => {
       <Button disabled={!isModified} onClick={() => onResetBtnClick()}>
         Reset
       </Button>
-    </div>
+    </Container>
   );
 };
 
