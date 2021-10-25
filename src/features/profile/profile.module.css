@@ -1,0 +1,14 @@
+.container {
+  text-align: left;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: gray;
+
+  padding: 20px;
+  margin: 20px;
+}
+
+.container > *:not(:last-child) {
+  margin-bottom: 20px;
+}
