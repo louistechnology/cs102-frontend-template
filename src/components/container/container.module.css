@@ -3,7 +3,7 @@
 
   border-style: solid;
   border-radius: 20px;
-  border-color: var(--color-secondary);
+  border-color: var(--color-primary);
 
   padding: 20px;
   margin: 20px;
@@ -11,4 +11,9 @@
 
 .container > *:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.h4 {
+  color: var(--color-primary);
+  font-weight: bold;
 }

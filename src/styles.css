@@ -5,11 +5,14 @@
 }
 
 :root {
-  /* Buttons */
   --color-primary: RoyalBlue;
   --color-primary-text: White;
+  --color-primary-activated: #2645aa;
+
   --color-secondary: Grey;
   --color-secondary-text: White;
+  --color-secondary-activated: #575757;
+
   --color-disabled: #adadad;
   --color-disabled-text: #767676;
 }

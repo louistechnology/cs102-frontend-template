@@ -9,9 +9,17 @@
   color: var(--color-primary-text);
 }
 
+.primary_btn:hover {
+  background-color: var(--color-primary-activated);
+}
+
 .secondary_btn {
   background-color: var(--color-secondary);
   color: var(--color-secondary-text);
+}
+
+.secondary_btn:hover {
+  background-color: var(--color-secondary-activated);
 }
 
 .disabled {

@@ -5,7 +5,7 @@ const Container = (props) => {
 
   return (
     <div className={styles.container}>
-      <h4>{title}</h4>
+      <h4 className={styles.h4}>{title}</h4>
       {children}
     </div>
   );
